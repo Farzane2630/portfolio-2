@@ -1,0 +1,10 @@
+.brand-container {
+    margin:auto 0 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand-container img{
+    cursor: pointer;
+}
+

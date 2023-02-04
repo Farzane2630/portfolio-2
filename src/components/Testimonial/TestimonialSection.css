@@ -1,0 +1,32 @@
+.testimony-container {
+    background-color: #fff;
+    width: 60%;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px -15px rgba(0, 0, 0, 0.7) !important;
+}
+
+.testimonialTitle{
+    color: #f63f79;
+    text-align: center;
+    font-size: 24px;
+}
+.testimonial-desc{
+    color: #232F55;
+    font-size: 30px;
+    text-align: center;
+}
+
+.qoute{
+    color: #232F55;
+    font-size: 20px;
+}
+
+.testimonial{
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+}
+
+.testimonialImg{
+    display: flex;
+}

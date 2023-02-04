@@ -1,0 +1,65 @@
+.but-container {
+    border: black solid 2px;
+    width: 180px;
+    height: 45px;
+    border-radius: 25px;
+    flex-direction: row !important;
+    margin: 20px auto;
+}
+
+#yearly, #monthly{
+    width: 90px;
+    border: none;
+    text-align: center;
+    color: black;
+    background-color: white;
+    height: 45px;
+    font-size: 14px;
+}
+
+#monthly {
+border-radius: 0 25px 25px 0;
+}
+#yearly {
+border-right: black solid thin;
+border-radius: 25px 0 0 25px;
+}
+
+.plan-toggle, #yearly:hover , #monthly:hover  {
+    transition-duration:  all 0.4s;
+    color: white !important;
+    background-color: black !important;
+}
+
+.plans-container {
+    justify-content: space-around !important;
+    flex-direction: row !important;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+#plan-container {
+    width: 300px;
+    height: 500px;
+    padding: 0 20px;
+    border-radius: 4px;
+    margin: auto 60px !important;
+}
+#plan-container:hover {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.started-but {
+    width: 150px;
+    height: 50px;
+}
+
+.plan-detail {
+    width: 65%;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 18px;
+
+}

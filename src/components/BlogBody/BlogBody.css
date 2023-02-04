@@ -1,0 +1,388 @@
+.bb-container {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 50px !important;
+}
+
+.blog-right-col{
+    padding: 30px 10px !important;
+}
+
+.main-blog-container, .post-container{
+    position: relative;
+    margin-bottom: 40px;
+    padding: 30px 30px !important;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    border-radius: 12px;
+}
+
+.post-pic{
+    margin-bottom: 30px;
+}
+
+.date{
+    width: 90px;
+    height: 80px;
+    background-color: #FF5086;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13px;
+    position: absolute;
+    bottom: 30%;
+    left: 8%;
+}
+
+.day{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.month {
+    font-size: 20px;
+}
+
+.post-title, .main-blog-title{
+    margin-top: 30px;
+    color: #1f1e19;
+    padding-bottom: 20px;
+}
+
+.post-title:hover, .main-blog-title:hover {
+    cursor: pointer;
+    color: #FF5086;
+}
+
+.post-deps, .main-blog-summery {
+    display: flex;
+    align-items: center;
+}
+
+.category, .comments{
+    padding: 0px 10px;
+    color: #aaa;
+}
+.category:hover, .comments:hover{
+    color: #FF5086;
+    cursor: pointer;
+}
+.category> span, .comments> span{
+    padding: 0px 10px;
+}
+
+
+.blog-pagination{
+    display: flex;
+    justify-content: center;
+}
+
+/* right col */
+
+.gray-bg{
+    background-color: #FBF9FF;
+    width: 440px !important;
+}
+.right-col-container{
+    padding-left: 40px !important;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+.search-input {
+    height: 50px;
+    width: 300px;
+    border: #aaa solid thin;
+    padding-left: 20px;
+    
+}
+
+.search-btn {
+    background-color: #FF5086;
+    color: #fff;
+    height: 50px;
+    width: 90px;
+    border: none;
+}
+
+/* category */
+.category-container{
+    padding: 20px 20px !important;
+    margin-top: 0%;
+}
+.category-header{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.category-title{
+    color: rgb(84, 83, 83);
+}
+.category-title:hover, .rp-title:hover{
+    cursor: pointer;
+    color: #FF5086;
+}
+
+/* recent posts */
+.recent-post-container{
+    padding: 20px 20px !important;
+    margin-top: 50px;
+}
+
+.resent-post-hesder{
+    font-size: 24px;
+}
+
+.recent-posts{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.recent-posts > img {
+    padding-right: 15px;
+}
+.rp-title {
+    font-size: 17px;
+}
+.rp-date {
+    font-size: 14px;
+    color: rgb(84, 83, 83);
+}
+
+/* tag cloud */
+
+.tag-cloud-container{
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+
+.tag-cloud-container > p, .insta-feed-container > p, .news-letter-container > p {
+    font-size: 24px;
+}
+
+.cloud-options {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 420px;
+    padding-top: 30px;
+}
+.cluod-btn {
+    padding: 1px 10px;
+    border: solid thin #aaa;
+    color: #aaa;
+    margin: 5px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.cluod-btn:hover{
+    background-color: #FF5086;
+    color: #fff;
+    border: none;
+}
+
+/* instagram feed */
+.insta-feed-container{
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+
+.insta-posts-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.insta-post{
+    margin: 10px 10px;
+}
+
+.insta-post:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* news letter */
+.news-letter-container{
+    margin-top: 50px;
+    padding: 30px 20px;
+}
+
+.news-deps > input {
+height: 45px;
+width: 320px;
+border: #aaa thin solid;
+padding-left: 25px;
+margin-bottom: 15px;
+}
+
+.news-deps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news-deps > button {
+    height: 45px;
+    width: 320px;
+    border: #FF5086 thin solid;
+    border-radius: 0%;
+    background-color: #fff;
+    color: #FF5086;
+}
+
+.news-deps > button:hover{
+    background-color: #FF5086;
+    color: #fff;
+    border: none;
+}
+
+
+/* main-blog */
+
+.main-blog-left-col{
+    margin-bottom: 300px;
+    padding: 0px 30px;
+}
+
+.main-blog-sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.main-blog-text{
+    padding: 0px 0px 20px 0px;
+
+}
+
+.main-blog-like{
+    display: flex;
+    align-items: center;
+}
+
+.like-icon{
+    font-size: 22px;
+    color: #f9aac3;
+    margin-right: 5px;
+}
+
+.main-blog-like > p{
+    margin: 0px;
+    font-weight: 500;
+}
+
+.social-icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 24px; 
+    color: #555; 
+}
+
+.social-items:hover, .like-icon:hover{
+    color: #FF5086;
+    cursor: pointer;
+}
+
+.qoute-text {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+/* comment section */
+.comments-container {
+    margin: 40px;
+    padding: 25px;
+}
+
+.comment-nums {
+    font-size: 24px;
+    font-weight: 500;
+    color: #555;
+}
+
+.comment-name{
+    font-size: 500;
+    font-weight: 700;
+}
+
+.say{
+    color:#555;
+    font-weight: 500;
+}
+
+.comment-text{
+    padding-left: 10px;
+}
+
+.comments-row{
+    display: flex;
+    align-items: center;  
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.thumbs-icon{
+    font-size: 24px;
+    color: #555;
+    margin-right: 50px;
+}
+
+.thumbs-icon:hover{
+    color: #FF5086;
+}
+.leave-cm{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.cm-txt{
+    height: 100px;
+}
+
+.cm-name, .cm-email {
+    height: 45px;
+}
+
+.cm-name, .cm-txt, .cm-email{
+    width: 300px;
+    border: #FF5086 solid thin;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.post-cm {
+    border: #FF5086 solid thin;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 60px;
+    width: 300px;
+    color: #FF5086;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.post-cm:hover{
+    background-color: #FF5086;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

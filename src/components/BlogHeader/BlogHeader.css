@@ -1,0 +1,25 @@
+.bh-container {
+    background-image: url(https://preview.colorlib.com/theme/calvino/assets/img/hero/h2_hero1.png.webp);
+    height: 600px;
+    width: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0% !important;
+}
+
+.bh-container h1 {
+   margin: 100px auto 50px 120px;
+   color: rgb(25,40,57);
+   font-style: normal;
+   font-size: 70px;
+   font-family: "Nunito",sans-serif;
+}
+
+.bh-container p {
+    width: 500px;
+    margin-left: 120px;
+    font-size: 26px;
+    font-family: "Nunito",sans-serif;
+}
+

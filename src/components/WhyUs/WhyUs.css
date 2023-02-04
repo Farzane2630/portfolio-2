@@ -1,0 +1,57 @@
+.why-container {
+    display: flex;
+    margin: auto 150px;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.why-middle{
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.why-middle h1 {
+width: 550px;
+}
+
+.why-middle, .why-bottom, .statistic{
+    display: flex;
+    flex-direction: row;
+}
+
+.divide-line {
+    width: inherit;
+    background-color:rgba(193, 190, 190, 0.688);
+    height: 1px;
+}
+
+.numbers {
+    display: inline;
+    height: 200px;
+}
+
+.bordered {
+    border-right: 1px solid rgba(193, 190, 190, 0.688);
+    margin-right: 50px;
+    padding-right: 50px;
+}
+.numbers p {
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.why-bottom {
+    margin-top: 20px;
+}
+
+.grayish-txt {
+    color:rgb(84, 81, 81);
+}
+
+.why-desc p {
+    font-weight: 600;
+    font-size: 24px;
+    max-width: 600px;
+    padding-left: 150px;
+}

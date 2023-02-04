@@ -1,0 +1,48 @@
+.header-main {
+    background-image: url(https://preview.colorlib.com/theme/calvino/assets/img/hero/h1_hero1.png.webp);
+    height: 750px;
+    padding-top: 100px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left !important;
+    margin-left: 150px;
+    margin-top: 60px;
+    max-width: 500px;
+}
+
+.digital {
+    color: #f63f79;
+    border: #ff508751 thin solid;
+    border-radius: 25px;
+    width: 200px;
+    justify-content: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+}
+
+.header-desc {
+    font-weight: 400;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 60px;
+}
+
+.explore {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+}

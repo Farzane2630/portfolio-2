@@ -1,0 +1,83 @@
+#footer-container {
+    height: 450px;
+    width: 100%;
+    padding: 0%;
+    background-image: url(https://preview.colorlib.com/theme/calvino/assets/img/gallery/footer-bg.jpg.webp);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ /* -------------------------------logo column------------------------- */
+.logo-container {
+    width: 350px;
+    height: 300px
+}
+
+.footer-logo {
+    margin: 20px 0px;
+}
+
+.social {
+    margin: 30px 10px;
+}
+
+.social:hover {
+    color: #FF5086;
+    cursor: pointer;
+}
+
+/* -------------------------------Middle Columns------------------ */
+.middle-cols {
+    width: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    flex-direction: row;
+}
+
+.footer-nav-title, .footer-service-title, .right-col-title {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-navigation a, .footer-services a, .right-col-container a{
+    text-decoration: none;
+    color: #7d7a7a;
+}
+
+.footer-navigation a:hover, .footer-services a:hover {
+    border-bottom: black 2px solid;
+    color: #7d7a7a;
+}
+
+.footer-navigation, .footer-services, .right-col-container ul {
+    list-style: none;
+}
+
+.footer-navigation li, .footer-services li, .right-col-container li{
+    margin: 30px auto;
+    
+}
+
+/* --------------------------------Right Col------------------------------ */
+
+.right-col-container {
+height: 330px;
+}
+
+.footer-phone{
+    color: #FF5086 !important;
+    font-size: large;
+}
+
+.footer-email{
+    color: black !important;
+}
+
+.footer-email, .footer-phone{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}

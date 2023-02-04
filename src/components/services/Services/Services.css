@@ -1,0 +1,74 @@
+.services-container, .service-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.services-container {
+    flex-direction: column;
+    margin: 50px 10px;
+    padding-bottom: 130px !important;
+}
+
+.services-container p {
+    color: #FF5086;
+    font-size: 20px;
+}
+
+.services-container h1 {
+    line-height: 1.5rem;
+}
+
+.service-box {
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.service-container {
+    background-color: #ffff;
+    width: 250px;
+    height: fit-content;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 8px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+.service-container:hover{
+    transition: background-color 0.4s ease-out;
+    background: rgba(4, 4, 84, 0.939);
+    color: white;
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #f6c8d5;
+    position: relative;
+    margin: 35px;
+}
+
+.service-icon img {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+
+.started-but {
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+}
+.started-but:hover{
+    background: white !important;
+    border: solid thin #FF5086 !important;
+    color: #FF5086;
+}

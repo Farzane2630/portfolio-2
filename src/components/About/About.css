@@ -1,0 +1,31 @@
+.about-container {
+    flex-direction: row;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-right: 100px;
+}
+
+.about-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 50px;
+    width: 500px;
+}
+
+.title {
+    color: #f63f79;
+} 
+
+.about-desc h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about-desc .detail {
+margin: 10px auto;
+}
+
