@@ -8,13 +8,13 @@
 
 ## Screenshots
 🏠 homepage
-![screencapture-localhost-3000-blog-4-2023-07-23-18_39_39](https://github.com/Farzane2630/portfolio-2/assets/110881082/dc5e4c63-2113-45ad-a5a4-09e064984b9a)
+![screencapture-localhost-3000-2023-07-23-18_39_01](https://github.com/Farzane2630/portfolio-2/assets/110881082/1a531e4e-8c67-4354-be56-73cd1614100e)
 
 💌 blogs-page
 ![screencapture-localhost-3000-blog-2023-07-23-18_39_20](https://github.com/Farzane2630/portfolio-2/assets/110881082/9e0f139a-2145-43c7-9cf4-2d149ed7d83b)
 
 💫 blog-page
-![screencapture-localhost-3000-2023-07-23-18_39_01](https://github.com/Farzane2630/portfolio-2/assets/110881082/1a531e4e-8c67-4354-be56-73cd1614100e)
+![screencapture-localhost-3000-blog-4-2023-07-23-18_39_39](https://github.com/Farzane2630/portfolio-2/assets/110881082/dc5e4c63-2113-45ad-a5a4-09e064984b9a)
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Farzane2630)
